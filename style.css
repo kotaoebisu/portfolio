@@ -1,0 +1,182 @@
+@charset "utf-8";
+
+
+@font-face {
+    font-family: 'ABCDiatypeEdu-Regular';
+    src: url('./ABCDiatypeEdu-Regular.otf') format('opentype');
+
+    }
+
+
+
+    body { 
+
+        font-family: 'ABCDiatypeEdu-Regular';
+        font-size: 25px;
+        margin: 32px;
+        margin-bottom: 10%;
+        background-color: #f6f6f6;
+        color: #060606
+    } 
+    
+
+
+    a {
+        text-decoration: none;
+        color: #000;
+    }
+    
+
+
+
+
+/*メニュー*/
+#headline {
+    position: sticky;
+    top: 27px;
+    width: 100%;
+}
+.hover-sample:hover {
+    color: #75fb8f;
+}
+
+#menu {
+    display: grid;
+    margin: 0%;
+    max-width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 40px;
+    grid-auto-rows: 20%;
+    
+}
+
+#info {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+
+
+
+
+
+
+
+/*プロジェクト*/
+.explanation{
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 4fr;
+
+}
+
+
+.project {
+    max-width: 100%;
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: 1fr 2fr ;
+
+}
+
+
+
+.project-text {
+    font-size: 14px;
+    margin: 10% 5% 0% 5%;
+}
+
+.tools {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: right;
+}
+
+.project-images{
+    max-width: 100%;
+    margin-top: 16px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.youtube {
+    width: 100%;
+    margin-top: 16px;
+    aspect-ratio: 16/9;
+}
+
+
+/*エコーロケーション*/
+
+
+#echolocationBody {
+    transition: 1s;
+    margin: 100vh 0 0 0;
+}
+
+.container {
+    margin-bottom: 20vh;
+}
+
+.echolocation-images  * {
+
+    font-size: 40px;
+    color: #f6f6f6;
+
+    width: 40vw;
+    height: 40vw;
+    margin:  0 auto;
+    cursor: none !important;
+
+
+}
+
+#bt {
+    line-height:calc( 50vh);
+    text-align: center;
+    
+}
+
+
+
+/*インデックス*/
+#index {
+    margin: 0%;
+    padding: 0 auto;
+}
+
+.index-element {
+    display: grid;
+    margin: 0%;
+    margin-top: 5%;
+    max-width: 100%;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 100px;
+    grid-auto-rows: 30%
+}
+
+.index-image {
+    max-width: 100%;
+}
+
+
+/*インフォメーション*/
+.infomation {
+    margin: 0%;
+    margin-top: 30%;
+}
+
+.infomation-text {
+    font-size: 20px;
+    display: grid;
+    margin: 0%;
+    margin-top: 10%;
+    margin-right: 5vw;
+    max-width: 100%;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 40px;
+    grid-auto-rows: 20%
+}
+
